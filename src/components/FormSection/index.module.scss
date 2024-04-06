@@ -1,0 +1,30 @@
+.input{
+    width: 19.625rem;
+    height: 1.5625rem;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.select{
+    width: 19.625rem;
+    height: 3rem;
+    border: none;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+}
+.balance{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    margin-top: 2rem;
+}
+
+.result{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: var(--primary-color);
+}
